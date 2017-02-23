@@ -1,0 +1,9 @@
+# IntelliJ IDEA
+.idea
+deviceToolsTest.iml
+
+# Compiling
+target
+
+# Data file
+points.bin
