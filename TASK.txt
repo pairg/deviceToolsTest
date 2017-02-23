@@ -1,0 +1,24 @@
+The attached file (points.bin) contains 10 million entries represented as 64-bit floats. Each pair of consecutive entries defines a point (x, y) in the 2D cartesian space. Write a program that takes the following input arguments:
+
+  - X (double)
+  - Y (double)
+  - N (integer)
+  - type (one of {closest, farthest})
+
+and prints the list of N points that are closest (or farthest, depending on the given type) to the point P with coordinates (X, Y). For this you must use only the standard tools and libraries from your programming language.
+
+Note: the first six values in the file 'points.bin' are:
+
+33.39705086
+134.7628216
+57.31316023
+-193.404109
+-17.08460909
+-180.569577
+
+which define the first three points as:
+
+(33.39705086, 134.7628216)
+(57.31316023, -193.404109)
+(-17.08460909, -180.569577)
+
